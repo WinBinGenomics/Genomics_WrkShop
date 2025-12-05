@@ -1,2 +1,0 @@
-Passingsites_bisnps_maf05_GOC_02.ped Passingsites_bisnps_maf05_GOC_02.map
-Passingsites_bisnps_maf05_GOC_03.ped Passingsites_bisnps_maf05_GOC_03.map
