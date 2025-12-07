@@ -36,5 +36,4 @@ mkdir -p "${outputdir}"
 cd "${outputdir}"
 
 # Run GONE2 on the input.
-srun gone2 -t "${SLURM_CPUS_PER_TASK}" -r 0.8 -s 1999999 -M 0.05 "${inputdir}/${pop}_CHR1.ped" -o "${outputdir}/${pop}"
-#srun gone2 -t "${SLURM_CPUS_PER_TASK}" -r 0.8 -x "${inputdir}/${pop}_chr19-21.ped" -o "${outputdir}/${pop}"
+srun gone2 -t "${SLURM_CPUS_PER_TASK}" -r 0.8 "${inputdir}/${pop}_Chr1-3_1M.ped" -o "${outputdir}/${pop}"
